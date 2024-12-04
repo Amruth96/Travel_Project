@@ -1,0 +1,28 @@
+/* src/components/HomePage/HomePage.css */
+.logo img {
+  width: 150px; /* Set logo size */
+  height: auto;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px; /* Space between the logo and heading */
+}
+
+.actions {
+  margin-top: 30px; /* Space between heading and buttons */
+}
+
+.login-btn, .signup-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #0056b3;
+}

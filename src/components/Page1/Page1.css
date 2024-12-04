@@ -1,0 +1,31 @@
+/* src/components/Page1/Page1.css */
+.page1-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .packages-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .package-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package-card h3 {
+    color: #007bff;
+  }
+  
+  .package-card p {
+    font-size: 1.1em;
+  }
+  
+  .package-card strong {
+    color: #333;
+  }
+  
